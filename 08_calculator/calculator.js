@@ -1,16 +1,24 @@
-const add = function() {
-	
+let string = "";
+let currentResult = 0;
+
+const add = function(a, b) {
+	string = `${a} + ${b}`;
+  return a + b;
 };
 
-const subtract = function() {
-	
+const subtract = function(a, b) {
+	string = `${a} - ${b}`;
+  return a - b;
 };
 
-const sum = function() {
-	
+const sum = function(a, b) {
+	string = `${a} + ${b}`;
+  return a + b;
 };
 
-const multiply = function() {
+const multiply = function(a, b) {
+  string = `${a} * ${b}`;
+  return a * b;
 
 };
 
